@@ -1,0 +1,19 @@
+[[./configuration.png]]
+
+1. Without a 7-segment plugged into the breadboard, program the
+   Arduino with a test script found in this repo.
+2. Unplug the Arduino
+3. Plug 7-segment into breadboard (refer to picture above for orientation)
+4. Plug in Arduino
+5. The 7-segment should count from 0000 to 9999 (as, 0000, 1111, 2222,
+   etc.)
+6. Without unplugging anything, you can upload another test script to
+   the Arduino.
+
+Press the reset button on the Arduino if you want to reset the
+7-segment (since the reset on the Arduino is wired to the reset on the
+7-segment).
+
+Reference:
+
+https://learn.sparkfun.com/tutorials/using-the-serial-7-segment-display/all
